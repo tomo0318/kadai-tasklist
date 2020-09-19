@@ -25,6 +25,8 @@
                     </ul>
                 </div>
             </nav>
+            {{-- エラーメッセージ --}}
+            @include('commons.error_messages')
         </header>
 
         <div class="container">
